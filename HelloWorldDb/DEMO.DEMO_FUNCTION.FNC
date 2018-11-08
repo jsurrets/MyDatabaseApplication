@@ -12,9 +12,7 @@ tmpVar NUMBER;
 =======
    1.3        4/4/2018   Mathew Phan              1. Created this function.
 >>>>>>> 52b7fadd9908e222c77c2f76a9bb0c557d689e02
-1.4 Jeff
-1.5 fix
-1.6 11/6
+
    NOTES:
 
    Automatically available Auto Replace Keywords:
@@ -30,7 +28,7 @@ BEGIN
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-     Return NULL;
+     NULL;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
