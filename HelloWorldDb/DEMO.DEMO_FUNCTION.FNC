@@ -14,7 +14,7 @@ tmpVar NUMBER;
 >>>>>>> 52b7fadd9908e222c77c2f76a9bb0c557d689e02
    1.4 Jeff
    1.5 Jeff corrected
-   NOTES: Added CA Rule Violation 12:44 3/6
+   NOTES: Added CA Rule Violation 12:44 3/6, new
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
