@@ -22,14 +22,14 @@ tmpVar NUMBER;
       Date and Time:   7/2/2017, 6:32:19 AM, and 7/2/2017 6:32:19 AM
       Username:        DEMO (set in TOAD Options, Procedure Editor)
       Table Name:       (set in the "New PL/SQL Object" dialog)
-test 456
+
 ******************************************************************************/
 BEGIN
    tmpVar := 0;
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-     NULL;
+     RETURN NULL;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
