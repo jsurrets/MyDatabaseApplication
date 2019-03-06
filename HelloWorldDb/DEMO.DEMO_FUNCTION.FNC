@@ -14,7 +14,7 @@ tmpVar NUMBER;
 >>>>>>> 52b7fadd9908e222c77c2f76a9bb0c557d689e02
    1.4 Jeff
    1.5 Jeff corrected
-   NOTES:
+   NOTES: Added CA Rule Violation 12:44 3/6
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
@@ -29,7 +29,7 @@ BEGIN
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-     RETURN NULL;
+     NULL;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
