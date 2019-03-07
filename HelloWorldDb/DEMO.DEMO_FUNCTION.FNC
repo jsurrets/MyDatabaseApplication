@@ -14,7 +14,7 @@ tmpVar NUMBER;
 >>>>>>> 52b7fadd9908e222c77c2f76a9bb0c557d689e02
    1.4 Jeff
    1.5 Jeff corrected
-   NOTES: Added CA Rule Violation 12:44 3/6, new
+   NOTES: 3/7 Test
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
@@ -22,7 +22,7 @@ tmpVar NUMBER;
       Date and Time:   7/2/2017, 6:32:19 AM, and 7/2/2017 6:32:19 AM
       Username:        DEMO (set in TOAD Options, Procedure Editor)
       Table Name:       (set in the "New PL/SQL Object" dialog)
-test
+
 ******************************************************************************/
 BEGIN
    tmpVar := 0;
