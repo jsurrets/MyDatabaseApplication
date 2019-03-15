@@ -24,13 +24,14 @@ tmpVar NUMBER;
       Table Name:       (set in the "New PL/SQL Object" dialog)
 Note1
 NOte2
+Note3
 ******************************************************************************/
 BEGIN
    tmpVar := 0;
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
-     NULL;
+     RETURN NULL;
      WHEN OTHERS THEN
        -- Consider logging the error and then re-raise
        RAISE;
