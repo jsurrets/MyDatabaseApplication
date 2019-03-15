@@ -23,6 +23,7 @@ tmpVar NUMBER;
       Username:        DEMO (set in TOAD Options, Procedure Editor)
       Table Name:       (set in the "New PL/SQL Object" dialog)
 Note1
+NOte2
 ******************************************************************************/
 BEGIN
    tmpVar := 0;
