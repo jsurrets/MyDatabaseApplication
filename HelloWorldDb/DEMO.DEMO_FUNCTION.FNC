@@ -9,12 +9,8 @@ tmpVar NUMBER;
    ---------  ----------  ---------------  ------------------------------------
 <<<<<<< HEAD
    1.3        7/19/2018   Mathew Phan              1. Created this function.
-=======
    1.3        4/4/2018   Mathew Phan              1. Created this function.
 >>>>>>> 52b7fadd9908e222c77c2f76a9bb0c557d689e02
-   1.4 Jeff
-   1.5 Jeff corrected
-   NOTES: 3/7 Test
 
    Automatically available Auto Replace Keywords:
       Object Name:     DEMO_FUNCTION
